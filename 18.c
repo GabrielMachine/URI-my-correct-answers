@@ -21,7 +21,8 @@ int main(){
     r5=fmod(r4,5);
     n6=r5/2;
     r6=fmod(r5,2);
-
+    n7=r6/1;
+    r7=fmod(r6,1);
 
 
 
