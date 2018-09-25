@@ -11,26 +11,15 @@ int main(){
 
     n1=valor/100;
     r1=fmod(n1,100);
-    n2=r1/50;
-    r2=fmod(r1,50);
-    n3=r2/20;
-    r3=fmod(r2,20);
-    n4=r3/10;
-    r4=fmod(r3,10);
-    n5=r4/5;
-    r5=fmod(r4,5);
-    n6=r5/2;
-    r6=fmod(r5,2);
-    n7=r6/1;
-    r7=fmod(r6,1);
-
+    printf("%f\n",r1);
+       
 
 
 
 
 
     //printing
-
+/*
     printf("NOTAS:\n");
     printf("%d nota(s) de R$ 100.00 \n", n1 );
     printf("%d nota(s) de R$ 50.00 \n", n2 );
@@ -45,6 +34,7 @@ int main(){
     printf("%d moeda(s) de R$ 0.10 \n", n10 );
     printf("%d moeda(s) de R$ 0.05 \n", n11 );
     printf("%d moeda(s) de R$ 0.01 \n", n12 );
+*/
   }
 
 }
